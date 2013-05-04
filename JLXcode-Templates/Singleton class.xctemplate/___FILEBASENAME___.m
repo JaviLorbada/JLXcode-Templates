@@ -8,9 +8,9 @@
 
 #import "___FILEBASENAME___.h"
 
-#pragma mark - Singleton
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+#pragma mark - Singleton
 + (___FILEBASENAMEASIDENTIFIER___ *)sharedInstance {
     static dispatch_once_t _onceToken;
     static ___FILEBASENAMEASIDENTIFIER___  *_sharedInstance;
