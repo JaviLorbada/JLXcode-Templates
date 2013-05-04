@@ -7,7 +7,7 @@ Xcode default classes templates for Xcode 4
 
 To install templates just copy JLXcode-Templates folder into the following directory: (If the Templates directory does not exist create it)
 
-`~/Library/Developer/Xcode/Templates/`
+`~/Library/Developer/Xcode/Templates/File Templates`
 
 ## Using Templates
 
