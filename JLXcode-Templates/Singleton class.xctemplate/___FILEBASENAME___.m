@@ -16,7 +16,7 @@
     static ___FILEBASENAMEASIDENTIFIER___  *_sharedInstance;
 
     dispatch_once(&_onceToken, ^{
-        _sharedInstance = [super init];
+        _sharedInstance = [[self alloc] init];
     });
 
     return _sharedInstance;
